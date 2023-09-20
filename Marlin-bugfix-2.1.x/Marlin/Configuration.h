@@ -1234,7 +1234,7 @@
  * Override with M92
  *                                      X, Y, Z [, I [, J [, K...]]], E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 102.2 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 94.53 }
 
 /**
  * Default Max Feed Rate (linear=mm/s, rotational=°/s)
@@ -1558,7 +1558,7 @@
  *     |    [-]    |
  *     O-- FRONT --+
  */
-#define NOZZLE_TO_PROBE_OFFSET { -41, -11, -2 }
+#define NOZZLE_TO_PROBE_OFFSET { -41, -11, -1.835 }
 
 // Enable and set to use a specific tool for probing. Disable to allow any tool.
 #define PROBING_TOOL 0
